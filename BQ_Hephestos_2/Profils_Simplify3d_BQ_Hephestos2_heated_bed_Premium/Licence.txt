@@ -1,0 +1,10 @@
+/*
+ * ----------------------------------------------------------------------------
+ * "LICENCE BEERWARE" (Révision 42):
+ * <michael@T-CORE.FR> a créé ce fichier. Tant que vous conservez cet avertissement,
+ * vous pouvez faire ce que vous voulez de ce truc. Si on se rencontre un jour et
+ * que vous pensez que ce truc vaut le coup, vous pouvez me payer une bière en
+ * retour, me faire un don via https://www.paypal.me/Torvast ou via ma liste de 
+ * souhaits amazon : http://amzn.to/2FjmzsD . Michaël BORONAT
+ * ----------------------------------------------------------------------------
+ */
