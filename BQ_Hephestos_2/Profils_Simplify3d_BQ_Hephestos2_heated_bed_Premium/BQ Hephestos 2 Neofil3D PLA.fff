@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="BQ Hephestos 2 Neofil3D PLA" version="2018-02-20 11:08:15" app="S3D-Software 4.0.1">
+<profile name="BQ Hephestos 2 Neofil3D PLA" version="2018-02-21 15:29:29" app="S3D-Software 4.0.1">
   <baseProfile>bq Prusa i3 Hephestos 2</baseProfile>
   <printMaterial>PLA Neofil3D</printMaterial>
   <printQuality>200 microns</printQuality>
@@ -155,7 +155,7 @@
   <celebration>0</celebration>
   <celebrationSong>Random Song</celebrationSong>
   <postProcessing></postProcessing>
-  <defaultSpeed>3600</defaultSpeed>
+  <defaultSpeed>2500</defaultSpeed>
   <outlineUnderspeed>0.5</outlineUnderspeed>
   <solidInfillUnderspeed>0.8</solidInfillUnderspeed>
   <supportUnderspeed>0.8</supportUnderspeed>
