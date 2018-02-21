@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="BQ Witbox 2 Recreus FILAFLEX" version="2018-02-20 11:06:36" app="S3D-Software 4.0.1">
+<profile name="BQ Witbox 2 Recreus FILAFLEX" version="2018-02-21 15:40:42" app="S3D-Software 4.0.1">
   <baseProfile>bq Witbox 2</baseProfile>
   <printMaterial>Recreus FILAFLEX</printMaterial>
   <printQuality>200 microns</printQuality>
