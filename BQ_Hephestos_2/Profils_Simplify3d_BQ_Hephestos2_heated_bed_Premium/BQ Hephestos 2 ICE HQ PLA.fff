@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="BQ Hephestos 2 ICE HQ PLA" version="2018-03-02 19:47:34" app="S3D-Software 4.0.1">
+<profile name="BQ Hephestos 2 ICE HQ PLA" version="2018-03-08 16:18:34" app="S3D-Software 4.0.1">
   <baseProfile>bq Prusa i3 Hephestos 2</baseProfile>
   <printMaterial>PLA ICE HQ</printMaterial>
   <printQuality>200 microns</printQuality>
@@ -70,7 +70,7 @@
   <internalInfillAngles>45,-45</internalInfillAngles>
   <overlapInternalInfillAngles>1</overlapInternalInfillAngles>
   <externalInfillAngles>45,-45</externalInfillAngles>
-  <generateSupport>0</generateSupport>
+  <generateSupport>1</generateSupport>
   <supportExtruder>0</supportExtruder>
   <supportInfillPercentage>30</supportInfillPercentage>
   <supportExtraInflation>0</supportExtraInflation>
@@ -155,7 +155,7 @@
   <celebration>0</celebration>
   <celebrationSong>Random Song</celebrationSong>
   <postProcessing></postProcessing>
-  <defaultSpeed>2400</defaultSpeed>
+  <defaultSpeed>2300</defaultSpeed>
   <outlineUnderspeed>0.5</outlineUnderspeed>
   <solidInfillUnderspeed>0.8</solidInfillUnderspeed>
   <supportUnderspeed>0.8</supportUnderspeed>
