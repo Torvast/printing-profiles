@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<profile name="BQ Hephestos 2 Neofil3D PLA" version="2018-03-12 07:09:51" app="S3D-Software 4.0.1">
+<profile name="BQ Hephestos 2 ICE HQ PLA" version="2018-03-08 16:59:34" app="S3D-Software 4.0.1">
   <baseProfile>bq Prusa i3 Hephestos 2</baseProfile>
-  <printMaterial>PLA Neofil3D</printMaterial>
+  <printMaterial>PLA ICE HQ</printMaterial>
   <printQuality>200 microns</printQuality>
   <printExtruders></printExtruders>
   <extruder name="Primary Extruder">
@@ -70,7 +70,7 @@
   <internalInfillAngles>45,-45</internalInfillAngles>
   <overlapInternalInfillAngles>1</overlapInternalInfillAngles>
   <externalInfillAngles>45,-45</externalInfillAngles>
-  <generateSupport>0</generateSupport>
+  <generateSupport>1</generateSupport>
   <supportExtruder>0</supportExtruder>
   <supportInfillPercentage>30</supportInfillPercentage>
   <supportExtraInflation>0</supportExtraInflation>
@@ -155,7 +155,7 @@
   <celebration>0</celebration>
   <celebrationSong>Random Song</celebrationSong>
   <postProcessing></postProcessing>
-  <defaultSpeed>2500</defaultSpeed>
+  <defaultSpeed>2400</defaultSpeed>
   <outlineUnderspeed>0.5</outlineUnderspeed>
   <solidInfillUnderspeed>0.8</solidInfillUnderspeed>
   <supportUnderspeed>0.8</supportUnderspeed>
@@ -169,7 +169,7 @@
   <fixedBridgingAngle>0</fixedBridgingAngle>
   <applyBridgingToPerimeters>0</applyBridgingToPerimeters>
   <filamentDiameters>1.75|1.75|1.75|1.75|1.75|1.75</filamentDiameters>
-  <filamentPricesPerKg>35.87|46|46|46|46|46</filamentPricesPerKg>
+  <filamentPricesPerKg>22.59|46|46|46|46|46</filamentPricesPerKg>
   <filamentDensities>1.24|1.25|1.25|1.25|1.25|1.25</filamentDensities>
   <useMinPrintHeight>0</useMinPrintHeight>
   <minPrintHeight>0</minPrintHeight>
@@ -198,14 +198,6 @@
   <singleExtrusionMaxPrintingWidthPercentage>200</singleExtrusionMaxPrintingWidthPercentage>
   <singleExtrusionEndpointExtension>0.2</singleExtrusionEndpointExtension>
   <horizontalSizeCompensation>0</horizontalSizeCompensation>
-  <autoConfigureQuality name="100 microns">
-    <layerHeight>0.1</layerHeight>
-    <topSolidLayers>6</topSolidLayers>
-    <bottomSolidLayers>6</bottomSolidLayers>
-    <skirtLayers>2</skirtLayers>
-    <infillPercentage>30</infillPercentage>
-    <supportInfillPercentage>40</supportInfillPercentage>
-  </autoConfigureQuality>
   <autoConfigureQuality name="200 microns">
     <layerHeight>0.2</layerHeight>
     <topSolidLayers>6</topSolidLayers>
@@ -214,23 +206,15 @@
     <infillPercentage>20</infillPercentage>
     <supportInfillPercentage>30</supportInfillPercentage>
   </autoConfigureQuality>
-  <autoConfigureQuality name="50 microns">
-    <layerHeight>0.06</layerHeight>
-    <topSolidLayers>6</topSolidLayers>
-    <bottomSolidLayers>6</bottomSolidLayers>
+  <autoConfigureQuality name="100 microns">
+    <layerHeight>0.1</layerHeight>
+    <topSolidLayers>4</topSolidLayers>
+    <bottomSolidLayers>4</bottomSolidLayers>
     <skirtLayers>2</skirtLayers>
     <infillPercentage>30</infillPercentage>
     <supportInfillPercentage>40</supportInfillPercentage>
   </autoConfigureQuality>
-  <autoConfigureQuality name="25 microns">
-    <layerHeight>0.03</layerHeight>
-    <topSolidLayers>6</topSolidLayers>
-    <bottomSolidLayers>6</bottomSolidLayers>
-    <skirtLayers>2</skirtLayers>
-    <infillPercentage>30</infillPercentage>
-    <supportInfillPercentage>40</supportInfillPercentage>
-  </autoConfigureQuality>
-  <autoConfigureMaterial name="PLA Neofil3D">
+  <autoConfigureMaterial name="PLA ICE HQ">
     <temperatureController name="Primary Extruder">
       <temperatureNumber>0</temperatureNumber>
       <isHeatedBed>0</isHeatedBed>
