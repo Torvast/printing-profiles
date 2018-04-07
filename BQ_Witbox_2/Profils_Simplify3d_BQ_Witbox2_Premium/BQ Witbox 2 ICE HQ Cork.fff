@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<profile name="BQ Witbox 2 BQ PLA" version="2018-03-12 22:07:03" app="S3D-Software 4.0.1">
+<profile name="BQ Witbox 2 ICE HQ Cork" version="2018-03-23 10:54:38" app="S3D-Software 4.0.1">
   <baseProfile>bq Witbox 2</baseProfile>
-  <printMaterial>PLA BQ Premium BIO</printMaterial>
+  <printMaterial>PLA Cork ICE HQ - Original Oak - ICEFIL1WOO206</printMaterial>
   <printQuality>200 microns</printQuality>
   <printExtruders></printExtruders>
   <extruder name="Primary Extruder">
@@ -9,12 +9,12 @@
     <diameter>0.4</diameter>
     <autoWidth>0</autoWidth>
     <width>0.4</width>
-    <extrusionMultiplier>0.9</extrusionMultiplier>
+    <extrusionMultiplier>1</extrusionMultiplier>
     <useRetract>1</useRetract>
-    <retractionDistance>3.5</retractionDistance>
+    <retractionDistance>1</retractionDistance>
     <extraRestartDistance>0</extraRestartDistance>
     <retractionZLift>0</retractionZLift>
-    <retractionSpeed>4000</retractionSpeed>
+    <retractionSpeed>2700</retractionSpeed>
     <useCoasting>1</useCoasting>
     <coastingDistance>0.2</coastingDistance>
     <useWipe>0</useWipe>
@@ -92,13 +92,12 @@
     <relayBetweenLayers>0</relayBetweenLayers>
     <relayBetweenLoops>0</relayBetweenLoops>
     <stabilizeAtStartup>1</stabilizeAtStartup>
-    <setpoint layer="1" temperature="230"/>
-    <setpoint layer="10" temperature="220"/>
-    <setpoint layer="20" temperature="212"/>
+    <setpoint layer="1" temperature="220"/>
   </temperatureController>
   <fanSpeed>
     <setpoint layer="1" speed="0"/>
-    <setpoint layer="2" speed="100"/>
+    <setpoint layer="2" speed="50"/>
+    <setpoint layer="12" speed="80"/>
   </fanSpeed>
   <blipFanToFullPower>0</blipFanToFullPower>
   <adjustSpeedForCooling>1</adjustSpeedForCooling>
@@ -149,7 +148,7 @@
   <celebration>0</celebration>
   <celebrationSong>Random Song</celebrationSong>
   <postProcessing></postProcessing>
-  <defaultSpeed>2500</defaultSpeed>
+  <defaultSpeed>2400</defaultSpeed>
   <outlineUnderspeed>0.5</outlineUnderspeed>
   <solidInfillUnderspeed>0.8</solidInfillUnderspeed>
   <supportUnderspeed>0.8</supportUnderspeed>
@@ -163,8 +162,8 @@
   <fixedBridgingAngle>0</fixedBridgingAngle>
   <applyBridgingToPerimeters>0</applyBridgingToPerimeters>
   <filamentDiameters>1.75|1.75|1.75|1.75|1.75|1.75</filamentDiameters>
-  <filamentPricesPerKg>19.9|29.9|29.9|29.9|29.9|29.9</filamentPricesPerKg>
-  <filamentDensities>1.24|1.12|1.12|1.12|1.12|1.12</filamentDensities>
+  <filamentPricesPerKg>60|29.9|29.9|29.9|29.9|29.9</filamentPricesPerKg>
+  <filamentDensities>1.2|1.12|1.12|1.12|1.12|1.12</filamentDensities>
   <useMinPrintHeight>0</useMinPrintHeight>
   <minPrintHeight>0</minPrintHeight>
   <useMaxPrintHeight>0</useMaxPrintHeight>
@@ -192,26 +191,10 @@
   <singleExtrusionMaxPrintingWidthPercentage>200</singleExtrusionMaxPrintingWidthPercentage>
   <singleExtrusionEndpointExtension>0.2</singleExtrusionEndpointExtension>
   <horizontalSizeCompensation>0</horizontalSizeCompensation>
-  <autoConfigureQuality name="25 microns">
-    <layerHeight>0.03</layerHeight>
-    <topSolidLayers>6</topSolidLayers>
-    <bottomSolidLayers>6</bottomSolidLayers>
-    <skirtLayers>2</skirtLayers>
-    <infillPercentage>30</infillPercentage>
-    <supportInfillPercentage>40</supportInfillPercentage>
-  </autoConfigureQuality>
-  <autoConfigureQuality name="50 microns">
-    <layerHeight>0.06</layerHeight>
-    <topSolidLayers>6</topSolidLayers>
-    <bottomSolidLayers>6</bottomSolidLayers>
-    <skirtLayers>2</skirtLayers>
-    <infillPercentage>30</infillPercentage>
-    <supportInfillPercentage>40</supportInfillPercentage>
-  </autoConfigureQuality>
   <autoConfigureQuality name="100 microns">
     <layerHeight>0.1</layerHeight>
-    <topSolidLayers>6</topSolidLayers>
-    <bottomSolidLayers>6</bottomSolidLayers>
+    <topSolidLayers>4</topSolidLayers>
+    <bottomSolidLayers>4</bottomSolidLayers>
     <skirtLayers>2</skirtLayers>
     <infillPercentage>30</infillPercentage>
     <supportInfillPercentage>40</supportInfillPercentage>
@@ -224,21 +207,28 @@
     <infillPercentage>20</infillPercentage>
     <supportInfillPercentage>30</supportInfillPercentage>
   </autoConfigureQuality>
-  <autoConfigureMaterial name="PLA BQ Premium BIO">
+  <autoConfigureQuality name="300 microns">
+    <layerHeight>0.3</layerHeight>
+    <topSolidLayers>6</topSolidLayers>
+    <bottomSolidLayers>6</bottomSolidLayers>
+    <skirtLayers>1</skirtLayers>
+    <infillPercentage>15</infillPercentage>
+    <supportInfillPercentage>25</supportInfillPercentage>
+  </autoConfigureQuality>
+  <autoConfigureMaterial name="PLA Cork ICE HQ - Original Oak - ICEFIL1WOO206">
     <temperatureController name="Primary Extruder">
       <temperatureNumber>0</temperatureNumber>
       <isHeatedBed>0</isHeatedBed>
       <relayBetweenLayers>0</relayBetweenLayers>
       <relayBetweenLoops>0</relayBetweenLoops>
       <stabilizeAtStartup>1</stabilizeAtStartup>
-      <setpoint layer="1" temperature="230"/>
-      <setpoint layer="10" temperature="220"/>
-      <setpoint layer="20" temperature="212"/>
+      <setpoint layer="1" temperature="220"/>
     </temperatureController>
-    <globalExtrusionMultiplier>0.9</globalExtrusionMultiplier>
+    <globalExtrusionMultiplier>1</globalExtrusionMultiplier>
     <fanSpeed>
       <setpoint layer="1" speed="0"/>
-      <setpoint layer="2" speed="100"/>
+      <setpoint layer="2" speed="50"/>
+      <setpoint layer="12" speed="80"/>
     </fanSpeed>
   </autoConfigureMaterial>
 </profile>

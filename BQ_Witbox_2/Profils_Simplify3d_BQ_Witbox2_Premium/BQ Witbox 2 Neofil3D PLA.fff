@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="BQ Witbox 2 Neofil3D PLA" version="2018-02-20 11:08:45" app="S3D-Software 4.0.1">
+<profile name="BQ Witbox 2 Neofil3D PLA" version="2018-03-08 14:47:49" app="S3D-Software 4.0.1">
   <baseProfile>bq Witbox 2</baseProfile>
   <printMaterial>PLA Neofil3D</printMaterial>
   <printQuality>200 microns</printQuality>
