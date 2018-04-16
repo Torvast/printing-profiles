@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<profile name="BQ Witbox 2 ICE HQ Cork" version="2018-03-23 10:54:38" app="S3D-Software 4.0.1">
+<profile name="BQ Witbox 2 ICE HQ Cork" version="2018-04-15 22:49:24" app="S3D-Software 4.0.1">
   <baseProfile>bq Witbox 2</baseProfile>
   <printMaterial>PLA Cork ICE HQ - Original Oak - ICEFIL1WOO206</printMaterial>
   <printQuality>200 microns</printQuality>
   <printExtruders></printExtruders>
   <extruder name="Primary Extruder">
     <toolheadNumber>0</toolheadNumber>
-    <diameter>0.4</diameter>
+    <diameter>0.5</diameter>
     <autoWidth>0</autoWidth>
     <width>0.4</width>
     <extrusionMultiplier>1</extrusionMultiplier>
