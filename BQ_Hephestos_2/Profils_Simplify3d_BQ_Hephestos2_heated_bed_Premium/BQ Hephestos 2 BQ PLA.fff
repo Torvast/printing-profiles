@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="BQ Hephestos 2 BQ PLA" version="2018-03-13 08:26:58" app="S3D-Software 4.0.1">
+<profile name="BQ Hephestos 2 BQ PLA" version="2018-05-14 13:44:14" app="S3D-Software 4.0.1">
   <baseProfile>bq Prusa i3 Hephestos 2</baseProfile>
   <printMaterial>PLA BQ Premium</printMaterial>
   <printQuality>200 microns</printQuality>
@@ -22,7 +22,7 @@
   </extruder>
   <primaryExtruder>0</primaryExtruder>
   <layerHeight>0.2</layerHeight>
-  <topSolidLayers>6</topSolidLayers>
+  <topSolidLayers>7</topSolidLayers>
   <bottomSolidLayers>6</bottomSolidLayers>
   <perimeterOutlines>3</perimeterOutlines>
   <printPerimetersInsideOut>1</printPerimetersInsideOut>
@@ -195,14 +195,14 @@
   <externalThinWallType>0</externalThinWallType>
   <internalThinWallType>2</internalThinWallType>
   <thinWallAllowedOverlapPercentage>10</thinWallAllowedOverlapPercentage>
-  <singleExtrusionMinLength>1</singleExtrusionMinLength>
+  <singleExtrusionMinLength>0.6</singleExtrusionMinLength>
   <singleExtrusionMinPrintingWidthPercentage>50</singleExtrusionMinPrintingWidthPercentage>
   <singleExtrusionMaxPrintingWidthPercentage>200</singleExtrusionMaxPrintingWidthPercentage>
   <singleExtrusionEndpointExtension>0.2</singleExtrusionEndpointExtension>
   <horizontalSizeCompensation>0</horizontalSizeCompensation>
   <autoConfigureQuality name="100 microns">
     <layerHeight>0.1</layerHeight>
-    <topSolidLayers>6</topSolidLayers>
+    <topSolidLayers>7</topSolidLayers>
     <bottomSolidLayers>6</bottomSolidLayers>
     <skirtLayers>2</skirtLayers>
     <infillPercentage>30</infillPercentage>
@@ -210,7 +210,7 @@
   </autoConfigureQuality>
   <autoConfigureQuality name="200 microns">
     <layerHeight>0.2</layerHeight>
-    <topSolidLayers>6</topSolidLayers>
+    <topSolidLayers>7</topSolidLayers>
     <bottomSolidLayers>6</bottomSolidLayers>
     <skirtLayers>1</skirtLayers>
     <infillPercentage>20</infillPercentage>
@@ -218,7 +218,7 @@
   </autoConfigureQuality>
   <autoConfigureQuality name="50 microns">
     <layerHeight>0.06</layerHeight>
-    <topSolidLayers>6</topSolidLayers>
+    <topSolidLayers>7</topSolidLayers>
     <bottomSolidLayers>6</bottomSolidLayers>
     <skirtLayers>2</skirtLayers>
     <infillPercentage>30</infillPercentage>
@@ -226,7 +226,7 @@
   </autoConfigureQuality>
   <autoConfigureQuality name="25 microns">
     <layerHeight>0.03</layerHeight>
-    <topSolidLayers>6</topSolidLayers>
+    <topSolidLayers>7</topSolidLayers>
     <bottomSolidLayers>6</bottomSolidLayers>
     <skirtLayers>2</skirtLayers>
     <infillPercentage>30</infillPercentage>

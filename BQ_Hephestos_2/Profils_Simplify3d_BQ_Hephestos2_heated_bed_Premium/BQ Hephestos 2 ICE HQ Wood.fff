@@ -1,21 +1,21 @@
 <?xml version="1.0"?>
-<profile name="BQ Hephestos 2 Recreus FILAFLEX" version="2018-05-14 13:43:42" app="S3D-Software 4.0.1">
+<profile name="BQ Hephestos 2 ICE HQ Wood" version="2018-05-14 13:43:46" app="S3D-Software 4.0.1">
   <baseProfile>bq Prusa i3 Hephestos 2</baseProfile>
-  <printMaterial>Recreus FILAFLEX</printMaterial>
+  <printMaterial>ICE HQ</printMaterial>
   <printQuality>200 microns</printQuality>
   <printExtruders></printExtruders>
   <extruder name="Primary Extruder">
     <toolheadNumber>0</toolheadNumber>
-    <diameter>0.4</diameter>
+    <diameter>0.5</diameter>
     <autoWidth>0</autoWidth>
     <width>0.48</width>
     <extrusionMultiplier>0.9</extrusionMultiplier>
     <useRetract>1</useRetract>
-    <retractionDistance>3.5</retractionDistance>
+    <retractionDistance>3</retractionDistance>
     <extraRestartDistance>0</extraRestartDistance>
     <retractionZLift>0</retractionZLift>
-    <retractionSpeed>2400</retractionSpeed>
-    <useCoasting>0</useCoasting>
+    <retractionSpeed>9600</retractionSpeed>
+    <useCoasting>1</useCoasting>
     <coastingDistance>0.2</coastingDistance>
     <useWipe>0</useWipe>
     <wipeDistance>5</wipeDistance>
@@ -92,7 +92,7 @@
     <relayBetweenLayers>0</relayBetweenLayers>
     <relayBetweenLoops>0</relayBetweenLoops>
     <stabilizeAtStartup>1</stabilizeAtStartup>
-    <setpoint layer="1" temperature="245"/>
+    <setpoint layer="1" temperature="230"/>
   </temperatureController>
   <temperatureController name="Heated Bed">
     <temperatureNumber>0</temperatureNumber>
@@ -100,11 +100,12 @@
     <relayBetweenLayers>0</relayBetweenLayers>
     <relayBetweenLoops>0</relayBetweenLoops>
     <stabilizeAtStartup>1</stabilizeAtStartup>
-    <setpoint layer="1" temperature="0"/>
+    <setpoint layer="1" temperature="60"/>
   </temperatureController>
   <fanSpeed>
-    <setpoint layer="1" speed="120"/>
-    <setpoint layer="2" speed="100"/>
+    <setpoint layer="1" speed="0"/>
+    <setpoint layer="2" speed="50"/>
+    <setpoint layer="12" speed="80"/>
   </fanSpeed>
   <blipFanToFullPower>0</blipFanToFullPower>
   <adjustSpeedForCooling>1</adjustSpeedForCooling>
@@ -169,8 +170,8 @@
   <fixedBridgingAngle>0</fixedBridgingAngle>
   <applyBridgingToPerimeters>0</applyBridgingToPerimeters>
   <filamentDiameters>1.75|1.75|1.75|1.75|1.75|1.75</filamentDiameters>
-  <filamentPricesPerKg>29.9|46|46|46|46|46</filamentPricesPerKg>
-  <filamentDensities>1.12|1.25|1.25|1.25|1.25|1.25</filamentDensities>
+  <filamentPricesPerKg>30|46|46|46|46|46</filamentPricesPerKg>
+  <filamentDensities>1.2|1.25|1.25|1.25|1.25|1.25</filamentDensities>
   <useMinPrintHeight>0</useMinPrintHeight>
   <minPrintHeight>0</minPrintHeight>
   <useMaxPrintHeight>0</useMaxPrintHeight>
@@ -185,7 +186,7 @@
   <retractionMinTravel>3</retractionMinTravel>
   <retractWhileWiping>0</retractWhileWiping>
   <onlyWipeOutlines>1</onlyWipeOutlines>
-  <avoidCrossingOutline>1</avoidCrossingOutline>
+  <avoidCrossingOutline>0</avoidCrossingOutline>
   <maxMovementDetourFactor>3</maxMovementDetourFactor>
   <toolChangeRetractionDistance>12</toolChangeRetractionDistance>
   <toolChangeExtraRestartDistance>-0.5</toolChangeExtraRestartDistance>
@@ -206,6 +207,14 @@
     <infillPercentage>20</infillPercentage>
     <supportInfillPercentage>30</supportInfillPercentage>
   </autoConfigureQuality>
+  <autoConfigureQuality name="300 microns">
+    <layerHeight>0.3</layerHeight>
+    <topSolidLayers>7</topSolidLayers>
+    <bottomSolidLayers>6</bottomSolidLayers>
+    <skirtLayers>1</skirtLayers>
+    <infillPercentage>15</infillPercentage>
+    <supportInfillPercentage>25</supportInfillPercentage>
+  </autoConfigureQuality>
   <autoConfigureQuality name="100 microns">
     <layerHeight>0.1</layerHeight>
     <topSolidLayers>7</topSolidLayers>
@@ -214,27 +223,20 @@
     <infillPercentage>30</infillPercentage>
     <supportInfillPercentage>40</supportInfillPercentage>
   </autoConfigureQuality>
-  <autoConfigureQuality name="50 microns">
-    <layerHeight>0.06</layerHeight>
-    <topSolidLayers>7</topSolidLayers>
-    <bottomSolidLayers>6</bottomSolidLayers>
-    <skirtLayers>2</skirtLayers>
-    <infillPercentage>30</infillPercentage>
-    <supportInfillPercentage>40</supportInfillPercentage>
-  </autoConfigureQuality>
-  <autoConfigureMaterial name="Recreus FILAFLEX">
+  <autoConfigureMaterial name="ICE HQ">
     <temperatureController name="Primary Extruder">
       <temperatureNumber>0</temperatureNumber>
       <isHeatedBed>0</isHeatedBed>
       <relayBetweenLayers>0</relayBetweenLayers>
       <relayBetweenLoops>0</relayBetweenLoops>
       <stabilizeAtStartup>1</stabilizeAtStartup>
-      <setpoint layer="1" temperature="245"/>
+      <setpoint layer="1" temperature="230"/>
     </temperatureController>
     <globalExtrusionMultiplier>0.9</globalExtrusionMultiplier>
     <fanSpeed>
-      <setpoint layer="1" speed="120"/>
-      <setpoint layer="2" speed="100"/>
+      <setpoint layer="1" speed="0"/>
+      <setpoint layer="2" speed="50"/>
+      <setpoint layer="12" speed="80"/>
     </fanSpeed>
   </autoConfigureMaterial>
 </profile>
