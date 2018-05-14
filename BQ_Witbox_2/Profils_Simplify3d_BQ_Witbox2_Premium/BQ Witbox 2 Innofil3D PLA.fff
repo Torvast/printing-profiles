@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="BQ Witbox 2 Innofil3D PLA" version="2018-02-20 11:09:49" app="S3D-Software 4.0.1">
+<profile name="BQ Witbox 2 Innofil3D PLA" version="2018-05-14 13:35:36" app="S3D-Software 4.0.1">
   <baseProfile>bq Witbox 2</baseProfile>
   <printMaterial>PLA Innofil3D</printMaterial>
   <printQuality>200 microns</printQuality>
@@ -22,7 +22,7 @@
   </extruder>
   <primaryExtruder>0</primaryExtruder>
   <layerHeight>0.2</layerHeight>
-  <topSolidLayers>6</topSolidLayers>
+  <topSolidLayers>7</topSolidLayers>
   <bottomSolidLayers>6</bottomSolidLayers>
   <perimeterOutlines>3</perimeterOutlines>
   <printPerimetersInsideOut>1</printPerimetersInsideOut>
@@ -193,7 +193,7 @@
   <horizontalSizeCompensation>0</horizontalSizeCompensation>
   <autoConfigureQuality name="25 microns">
     <layerHeight>0.03</layerHeight>
-    <topSolidLayers>6</topSolidLayers>
+    <topSolidLayers>7</topSolidLayers>
     <bottomSolidLayers>6</bottomSolidLayers>
     <skirtLayers>2</skirtLayers>
     <infillPercentage>30</infillPercentage>
@@ -201,7 +201,7 @@
   </autoConfigureQuality>
   <autoConfigureQuality name="50 microns">
     <layerHeight>0.06</layerHeight>
-    <topSolidLayers>6</topSolidLayers>
+    <topSolidLayers>7</topSolidLayers>
     <bottomSolidLayers>6</bottomSolidLayers>
     <skirtLayers>2</skirtLayers>
     <infillPercentage>30</infillPercentage>
@@ -209,15 +209,15 @@
   </autoConfigureQuality>
   <autoConfigureQuality name="100 microns">
     <layerHeight>0.1</layerHeight>
-    <topSolidLayers>6</topSolidLayers>
+    <topSolidLayers>7</topSolidLayers>
     <bottomSolidLayers>6</bottomSolidLayers>
     <skirtLayers>2</skirtLayers>
-    <infillPercentage>30</infillPercentage>
+    <infillPercentage>20</infillPercentage>
     <supportInfillPercentage>40</supportInfillPercentage>
   </autoConfigureQuality>
   <autoConfigureQuality name="200 microns">
     <layerHeight>0.2</layerHeight>
-    <topSolidLayers>6</topSolidLayers>
+    <topSolidLayers>7</topSolidLayers>
     <bottomSolidLayers>6</bottomSolidLayers>
     <skirtLayers>1</skirtLayers>
     <infillPercentage>20</infillPercentage>
