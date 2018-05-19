@@ -5,7 +5,7 @@
  * vous pouvez faire ce que vous voulez de ce truc. Si on se rencontre un jour et
  * que vous pensez que ce truc vaut le coup, vous pouvez me payer une bière en
  * retour, me faire un don régulier/unique ici https://liberapay.com/Torvast/donate,
- * ou via https://www.paypal.me/Torvast ou alors par ma liste de 
- * souhaits amazon : http://amzn.to/2FjmzsD . Michaël BORONAT
+ * https://www.tipeee.com/torvast ou via https://www.paypal.me/Torvast ou alors
+ * par ma liste de souhaits amazon : http://amzn.to/2FjmzsD . Michaël BORONAT
  * ----------------------------------------------------------------------------
  */
