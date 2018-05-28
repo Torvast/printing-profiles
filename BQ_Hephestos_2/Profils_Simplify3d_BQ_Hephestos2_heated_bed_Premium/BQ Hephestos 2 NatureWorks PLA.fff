@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="BQ Hephestos 2 NatureWorks PLA" version="2018-05-14 13:36:43" app="S3D-Software 4.0.1">
+<profile name="BQ Hephestos 2 NatureWorks PLA" version="2018-05-28 15:02:16" app="S3D-Software 4.0.1">
   <baseProfile>bq Prusa i3 Hephestos 2</baseProfile>
   <printMaterial>Ingeo Biopolymer 4043D Premium BIO</printMaterial>
   <printQuality>200 microns</printQuality>

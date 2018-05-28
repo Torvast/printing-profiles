@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<profile name="BQ Hephestos 2 BQ PLA" version="2018-05-14 13:44:14" app="S3D-Software 4.0.1">
+<profile name="BQ Hephestos 2 BQ PLA" version="2018-05-28 15:02:56" app="S3D-Software 4.0.1">
   <baseProfile>bq Prusa i3 Hephestos 2</baseProfile>
-  <printMaterial>PLA BQ Premium</printMaterial>
+  <printMaterial>PLA BQ Premium BIO</printMaterial>
   <printQuality>200 microns</printQuality>
   <printExtruders></printExtruders>
   <extruder name="Primary Extruder">
@@ -63,7 +63,7 @@
   <internalInfillPattern>Grid</internalInfillPattern>
   <externalInfillPattern>Rectilinear</externalInfillPattern>
   <infillPercentage>20</infillPercentage>
-  <outlineOverlapPercentage>15</outlineOverlapPercentage>
+  <outlineOverlapPercentage>20</outlineOverlapPercentage>
   <infillExtrusionWidthPercentage>125</infillExtrusionWidthPercentage>
   <minInfillLength>5</minInfillLength>
   <infillLayerInterval>1</infillLayerInterval>
@@ -102,7 +102,7 @@
     <relayBetweenLayers>0</relayBetweenLayers>
     <relayBetweenLoops>0</relayBetweenLoops>
     <stabilizeAtStartup>1</stabilizeAtStartup>
-    <setpoint layer="1" temperature="50"/>
+    <setpoint layer="1" temperature="55"/>
   </temperatureController>
   <fanSpeed>
     <setpoint layer="1" speed="0"/>
@@ -232,7 +232,7 @@
     <infillPercentage>30</infillPercentage>
     <supportInfillPercentage>40</supportInfillPercentage>
   </autoConfigureQuality>
-  <autoConfigureMaterial name="PLA BQ Premium">
+  <autoConfigureMaterial name="PLA BQ Premium BIO">
     <temperatureController name="Primary Extruder">
       <temperatureNumber>0</temperatureNumber>
       <isHeatedBed>0</isHeatedBed>
