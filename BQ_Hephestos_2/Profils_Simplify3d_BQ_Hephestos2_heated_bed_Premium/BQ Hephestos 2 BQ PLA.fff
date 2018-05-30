@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<profile name="BQ Hephestos 2 BQ PLA" version="2018-03-13 08:26:58" app="S3D-Software 4.0.1">
+<profile name="BQ Hephestos 2 BQ PLA" version="2018-05-28 15:02:56" app="S3D-Software 4.0.1">
   <baseProfile>bq Prusa i3 Hephestos 2</baseProfile>
-  <printMaterial>PLA BQ Premium</printMaterial>
+  <printMaterial>PLA BQ Premium BIO</printMaterial>
   <printQuality>200 microns</printQuality>
   <printExtruders></printExtruders>
   <extruder name="Primary Extruder">
@@ -22,7 +22,7 @@
   </extruder>
   <primaryExtruder>0</primaryExtruder>
   <layerHeight>0.2</layerHeight>
-  <topSolidLayers>6</topSolidLayers>
+  <topSolidLayers>7</topSolidLayers>
   <bottomSolidLayers>6</bottomSolidLayers>
   <perimeterOutlines>3</perimeterOutlines>
   <printPerimetersInsideOut>1</printPerimetersInsideOut>
@@ -63,7 +63,7 @@
   <internalInfillPattern>Grid</internalInfillPattern>
   <externalInfillPattern>Rectilinear</externalInfillPattern>
   <infillPercentage>20</infillPercentage>
-  <outlineOverlapPercentage>15</outlineOverlapPercentage>
+  <outlineOverlapPercentage>20</outlineOverlapPercentage>
   <infillExtrusionWidthPercentage>125</infillExtrusionWidthPercentage>
   <minInfillLength>5</minInfillLength>
   <infillLayerInterval>1</infillLayerInterval>
@@ -102,7 +102,7 @@
     <relayBetweenLayers>0</relayBetweenLayers>
     <relayBetweenLoops>0</relayBetweenLoops>
     <stabilizeAtStartup>1</stabilizeAtStartup>
-    <setpoint layer="1" temperature="50"/>
+    <setpoint layer="1" temperature="55"/>
   </temperatureController>
   <fanSpeed>
     <setpoint layer="1" speed="0"/>
@@ -195,14 +195,14 @@
   <externalThinWallType>0</externalThinWallType>
   <internalThinWallType>2</internalThinWallType>
   <thinWallAllowedOverlapPercentage>10</thinWallAllowedOverlapPercentage>
-  <singleExtrusionMinLength>1</singleExtrusionMinLength>
+  <singleExtrusionMinLength>0.6</singleExtrusionMinLength>
   <singleExtrusionMinPrintingWidthPercentage>50</singleExtrusionMinPrintingWidthPercentage>
   <singleExtrusionMaxPrintingWidthPercentage>200</singleExtrusionMaxPrintingWidthPercentage>
   <singleExtrusionEndpointExtension>0.2</singleExtrusionEndpointExtension>
   <horizontalSizeCompensation>0</horizontalSizeCompensation>
   <autoConfigureQuality name="100 microns">
     <layerHeight>0.1</layerHeight>
-    <topSolidLayers>6</topSolidLayers>
+    <topSolidLayers>7</topSolidLayers>
     <bottomSolidLayers>6</bottomSolidLayers>
     <skirtLayers>2</skirtLayers>
     <infillPercentage>30</infillPercentage>
@@ -210,7 +210,7 @@
   </autoConfigureQuality>
   <autoConfigureQuality name="200 microns">
     <layerHeight>0.2</layerHeight>
-    <topSolidLayers>6</topSolidLayers>
+    <topSolidLayers>7</topSolidLayers>
     <bottomSolidLayers>6</bottomSolidLayers>
     <skirtLayers>1</skirtLayers>
     <infillPercentage>20</infillPercentage>
@@ -218,7 +218,7 @@
   </autoConfigureQuality>
   <autoConfigureQuality name="50 microns">
     <layerHeight>0.06</layerHeight>
-    <topSolidLayers>6</topSolidLayers>
+    <topSolidLayers>7</topSolidLayers>
     <bottomSolidLayers>6</bottomSolidLayers>
     <skirtLayers>2</skirtLayers>
     <infillPercentage>30</infillPercentage>
@@ -226,13 +226,13 @@
   </autoConfigureQuality>
   <autoConfigureQuality name="25 microns">
     <layerHeight>0.03</layerHeight>
-    <topSolidLayers>6</topSolidLayers>
+    <topSolidLayers>7</topSolidLayers>
     <bottomSolidLayers>6</bottomSolidLayers>
     <skirtLayers>2</skirtLayers>
     <infillPercentage>30</infillPercentage>
     <supportInfillPercentage>40</supportInfillPercentage>
   </autoConfigureQuality>
-  <autoConfigureMaterial name="PLA BQ Premium">
+  <autoConfigureMaterial name="PLA BQ Premium BIO">
     <temperatureController name="Primary Extruder">
       <temperatureNumber>0</temperatureNumber>
       <isHeatedBed>0</isHeatedBed>

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="BQ Hephestos 2 NatureWorks PLA" version="2018-02-21 15:41:29" app="S3D-Software 4.0.1">
+<profile name="BQ Hephestos 2 NatureWorks PLA" version="2018-05-28 15:02:16" app="S3D-Software 4.0.1">
   <baseProfile>bq Prusa i3 Hephestos 2</baseProfile>
   <printMaterial>Ingeo Biopolymer 4043D Premium BIO</printMaterial>
   <printQuality>200 microns</printQuality>
@@ -22,7 +22,7 @@
   </extruder>
   <primaryExtruder>0</primaryExtruder>
   <layerHeight>0.2</layerHeight>
-  <topSolidLayers>6</topSolidLayers>
+  <topSolidLayers>7</topSolidLayers>
   <bottomSolidLayers>6</bottomSolidLayers>
   <perimeterOutlines>3</perimeterOutlines>
   <printPerimetersInsideOut>1</printPerimetersInsideOut>
@@ -102,7 +102,7 @@
     <relayBetweenLayers>0</relayBetweenLayers>
     <relayBetweenLoops>0</relayBetweenLoops>
     <stabilizeAtStartup>1</stabilizeAtStartup>
-    <setpoint layer="1" temperature="50"/>
+    <setpoint layer="1" temperature="60"/>
   </temperatureController>
   <fanSpeed>
     <setpoint layer="1" speed="0"/>
@@ -171,7 +171,7 @@
   <fixedBridgingAngle>0</fixedBridgingAngle>
   <applyBridgingToPerimeters>0</applyBridgingToPerimeters>
   <filamentDiameters>1.75|1.75|1.75|1.75|1.75|1.75</filamentDiameters>
-  <filamentPricesPerKg>19.9|46|46|46|46|46</filamentPricesPerKg>
+  <filamentPricesPerKg>26.53|46|46|46|46|46</filamentPricesPerKg>
   <filamentDensities>1.24|1.25|1.25|1.25|1.25|1.25</filamentDensities>
   <useMinPrintHeight>0</useMinPrintHeight>
   <minPrintHeight>0</minPrintHeight>
@@ -202,7 +202,7 @@
   <horizontalSizeCompensation>0</horizontalSizeCompensation>
   <autoConfigureQuality name="100 microns">
     <layerHeight>0.1</layerHeight>
-    <topSolidLayers>6</topSolidLayers>
+    <topSolidLayers>7</topSolidLayers>
     <bottomSolidLayers>6</bottomSolidLayers>
     <skirtLayers>2</skirtLayers>
     <infillPercentage>30</infillPercentage>
@@ -210,7 +210,7 @@
   </autoConfigureQuality>
   <autoConfigureQuality name="200 microns">
     <layerHeight>0.2</layerHeight>
-    <topSolidLayers>6</topSolidLayers>
+    <topSolidLayers>7</topSolidLayers>
     <bottomSolidLayers>6</bottomSolidLayers>
     <skirtLayers>1</skirtLayers>
     <infillPercentage>20</infillPercentage>
@@ -218,7 +218,7 @@
   </autoConfigureQuality>
   <autoConfigureQuality name="50 microns">
     <layerHeight>0.06</layerHeight>
-    <topSolidLayers>6</topSolidLayers>
+    <topSolidLayers>7</topSolidLayers>
     <bottomSolidLayers>6</bottomSolidLayers>
     <skirtLayers>2</skirtLayers>
     <infillPercentage>30</infillPercentage>
