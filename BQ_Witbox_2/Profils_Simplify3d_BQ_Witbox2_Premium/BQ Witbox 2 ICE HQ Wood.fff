@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
-<profile name="BQ Witbox 2 BQ Cork" version="2018-05-14 13:43:38" app="S3D-Software 4.0.1">
+<profile name="BQ Witbox 2 ICE HQ Wood" version="2018-05-14 13:38:17" app="S3D-Software 4.0.1">
   <baseProfile>bq Witbox 2</baseProfile>
-  <printMaterial>PLA Cork BQ Premium</printMaterial>
+  <printMaterial>ICE HQ</printMaterial>
   <printQuality>200 microns</printQuality>
   <printExtruders></printExtruders>
   <extruder name="Primary Extruder">
     <toolheadNumber>0</toolheadNumber>
-    <diameter>0.4</diameter>
+    <diameter>0.5</diameter>
     <autoWidth>0</autoWidth>
     <width>0.4</width>
-    <extrusionMultiplier>0.9</extrusionMultiplier>
+    <extrusionMultiplier>1</extrusionMultiplier>
     <useRetract>1</useRetract>
     <retractionDistance>1</retractionDistance>
     <extraRestartDistance>0</extraRestartDistance>
@@ -92,11 +92,12 @@
     <relayBetweenLayers>0</relayBetweenLayers>
     <relayBetweenLoops>0</relayBetweenLoops>
     <stabilizeAtStartup>1</stabilizeAtStartup>
-    <setpoint layer="1" temperature="230"/>
+    <setpoint layer="1" temperature="220"/>
   </temperatureController>
   <fanSpeed>
     <setpoint layer="1" speed="0"/>
-    <setpoint layer="2" speed="100"/>
+    <setpoint layer="2" speed="50"/>
+    <setpoint layer="12" speed="80"/>
   </fanSpeed>
   <blipFanToFullPower>0</blipFanToFullPower>
   <adjustSpeedForCooling>1</adjustSpeedForCooling>
@@ -161,8 +162,8 @@
   <fixedBridgingAngle>0</fixedBridgingAngle>
   <applyBridgingToPerimeters>0</applyBridgingToPerimeters>
   <filamentDiameters>1.75|1.75|1.75|1.75|1.75|1.75</filamentDiameters>
-  <filamentPricesPerKg>39.9|29.9|29.9|29.9|29.9|29.9</filamentPricesPerKg>
-  <filamentDensities>3.5|1.12|1.12|1.12|1.12|1.12</filamentDensities>
+  <filamentPricesPerKg>30|29.9|29.9|29.9|29.9|29.9</filamentPricesPerKg>
+  <filamentDensities>1.2|1.12|1.12|1.12|1.12|1.12</filamentDensities>
   <useMinPrintHeight>0</useMinPrintHeight>
   <minPrintHeight>0</minPrintHeight>
   <useMaxPrintHeight>0</useMaxPrintHeight>
@@ -214,19 +215,20 @@
     <infillPercentage>15</infillPercentage>
     <supportInfillPercentage>25</supportInfillPercentage>
   </autoConfigureQuality>
-  <autoConfigureMaterial name="PLA Cork BQ Premium">
+  <autoConfigureMaterial name="ICE HQ">
     <temperatureController name="Primary Extruder">
       <temperatureNumber>0</temperatureNumber>
       <isHeatedBed>0</isHeatedBed>
       <relayBetweenLayers>0</relayBetweenLayers>
       <relayBetweenLoops>0</relayBetweenLoops>
       <stabilizeAtStartup>1</stabilizeAtStartup>
-      <setpoint layer="1" temperature="230"/>
+      <setpoint layer="1" temperature="220"/>
     </temperatureController>
-    <globalExtrusionMultiplier>0.9</globalExtrusionMultiplier>
+    <globalExtrusionMultiplier>1</globalExtrusionMultiplier>
     <fanSpeed>
       <setpoint layer="1" speed="0"/>
-      <setpoint layer="2" speed="100"/>
+      <setpoint layer="2" speed="50"/>
+      <setpoint layer="12" speed="80"/>
     </fanSpeed>
   </autoConfigureMaterial>
 </profile>
