@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<profile name="BQ Witbox 2 BQ PLA" version="2018-06-22 08:35:21" app="S3D-Software 4.0.1">
+<profile name="BQ Witbox 2 PREMIUM Selection CORK" version="2018-06-22 08:56:45" app="S3D-Software 4.0.1">
   <baseProfile>bq Witbox 2</baseProfile>
-  <printMaterial>PLA BQ Premium BIO</printMaterial>
+  <printMaterial>PREMIUM Selection PLA CORK (liège)</printMaterial>
   <printQuality>200 microns</printQuality>
   <printExtruders></printExtruders>
   <extruder name="Primary Extruder">
@@ -11,10 +11,10 @@
     <width>0.4</width>
     <extrusionMultiplier>0.9</extrusionMultiplier>
     <useRetract>1</useRetract>
-    <retractionDistance>3.5</retractionDistance>
+    <retractionDistance>1</retractionDistance>
     <extraRestartDistance>0</extraRestartDistance>
     <retractionZLift>0</retractionZLift>
-    <retractionSpeed>4000</retractionSpeed>
+    <retractionSpeed>2700</retractionSpeed>
     <useCoasting>1</useCoasting>
     <coastingDistance>0.2</coastingDistance>
     <useWipe>0</useWipe>
@@ -63,9 +63,9 @@
   <internalInfillPattern>Grid</internalInfillPattern>
   <externalInfillPattern>Rectilinear</externalInfillPattern>
   <infillPercentage>20</infillPercentage>
-  <outlineOverlapPercentage>20</outlineOverlapPercentage>
+  <outlineOverlapPercentage>15</outlineOverlapPercentage>
   <infillExtrusionWidthPercentage>100</infillExtrusionWidthPercentage>
-  <minInfillLength>1</minInfillLength>
+  <minInfillLength>5</minInfillLength>
   <infillLayerInterval>1</infillLayerInterval>
   <internalInfillAngles>45,-45</internalInfillAngles>
   <overlapInternalInfillAngles>1</overlapInternalInfillAngles>
@@ -92,9 +92,7 @@
     <relayBetweenLayers>0</relayBetweenLayers>
     <relayBetweenLoops>0</relayBetweenLoops>
     <stabilizeAtStartup>1</stabilizeAtStartup>
-    <setpoint layer="1" temperature="230"/>
-    <setpoint layer="10" temperature="220"/>
-    <setpoint layer="20" temperature="212"/>
+    <setpoint layer="1" temperature="220"/>
   </temperatureController>
   <fanSpeed>
     <setpoint layer="1" speed="0"/>
@@ -163,8 +161,8 @@
   <fixedBridgingAngle>0</fixedBridgingAngle>
   <applyBridgingToPerimeters>0</applyBridgingToPerimeters>
   <filamentDiameters>1.75|1.75|1.75|1.75|1.75|1.75</filamentDiameters>
-  <filamentPricesPerKg>19.9|29.9|29.9|29.9|29.9|29.9</filamentPricesPerKg>
-  <filamentDensities>1.24|1.12|1.12|1.12|1.12|1.12</filamentDensities>
+  <filamentPricesPerKg>34.9|29.9|29.9|29.9|29.9|29.9</filamentPricesPerKg>
+  <filamentDensities>1.15|1.12|1.12|1.12|1.12|1.12</filamentDensities>
   <useMinPrintHeight>0</useMinPrintHeight>
   <minPrintHeight>0</minPrintHeight>
   <useMaxPrintHeight>0</useMaxPrintHeight>
@@ -187,27 +185,11 @@
   <externalThinWallType>0</externalThinWallType>
   <internalThinWallType>2</internalThinWallType>
   <thinWallAllowedOverlapPercentage>10</thinWallAllowedOverlapPercentage>
-  <singleExtrusionMinLength>0.6</singleExtrusionMinLength>
+  <singleExtrusionMinLength>1</singleExtrusionMinLength>
   <singleExtrusionMinPrintingWidthPercentage>50</singleExtrusionMinPrintingWidthPercentage>
   <singleExtrusionMaxPrintingWidthPercentage>200</singleExtrusionMaxPrintingWidthPercentage>
   <singleExtrusionEndpointExtension>0.2</singleExtrusionEndpointExtension>
   <horizontalSizeCompensation>0</horizontalSizeCompensation>
-  <autoConfigureQuality name="25 microns">
-    <layerHeight>0.03</layerHeight>
-    <topSolidLayers>7</topSolidLayers>
-    <bottomSolidLayers>6</bottomSolidLayers>
-    <skirtLayers>2</skirtLayers>
-    <infillPercentage>30</infillPercentage>
-    <supportInfillPercentage>40</supportInfillPercentage>
-  </autoConfigureQuality>
-  <autoConfigureQuality name="50 microns">
-    <layerHeight>0.06</layerHeight>
-    <topSolidLayers>7</topSolidLayers>
-    <bottomSolidLayers>6</bottomSolidLayers>
-    <skirtLayers>2</skirtLayers>
-    <infillPercentage>30</infillPercentage>
-    <supportInfillPercentage>40</supportInfillPercentage>
-  </autoConfigureQuality>
   <autoConfigureQuality name="100 microns">
     <layerHeight>0.1</layerHeight>
     <topSolidLayers>7</topSolidLayers>
@@ -224,16 +206,22 @@
     <infillPercentage>20</infillPercentage>
     <supportInfillPercentage>30</supportInfillPercentage>
   </autoConfigureQuality>
-  <autoConfigureMaterial name="PLA BQ Premium BIO">
+  <autoConfigureQuality name="300 microns">
+    <layerHeight>0.3</layerHeight>
+    <topSolidLayers>7</topSolidLayers>
+    <bottomSolidLayers>6</bottomSolidLayers>
+    <skirtLayers>1</skirtLayers>
+    <infillPercentage>15</infillPercentage>
+    <supportInfillPercentage>25</supportInfillPercentage>
+  </autoConfigureQuality>
+  <autoConfigureMaterial name="PREMIUM Selection PLA CORK (liège)">
     <temperatureController name="Primary Extruder">
       <temperatureNumber>0</temperatureNumber>
       <isHeatedBed>0</isHeatedBed>
       <relayBetweenLayers>0</relayBetweenLayers>
       <relayBetweenLoops>0</relayBetweenLoops>
       <stabilizeAtStartup>1</stabilizeAtStartup>
-      <setpoint layer="1" temperature="230"/>
-      <setpoint layer="10" temperature="220"/>
-      <setpoint layer="20" temperature="212"/>
+      <setpoint layer="1" temperature="220"/>
     </temperatureController>
     <globalExtrusionMultiplier>0.9</globalExtrusionMultiplier>
     <fanSpeed>
