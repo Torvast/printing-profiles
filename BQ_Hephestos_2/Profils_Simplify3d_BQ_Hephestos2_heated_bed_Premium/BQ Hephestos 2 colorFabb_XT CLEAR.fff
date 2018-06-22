@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="BQ Hephestos 2 colorFabb_XT CLEAR" version="2018-05-14 13:43:50" app="S3D-Software 4.0.1">
+<profile name="BQ Hephestos 2 colorFabb_XT CLEAR" version="2018-06-19 16:42:25" app="S3D-Software 4.0.1">
   <baseProfile>bq Prusa i3 Hephestos 2</baseProfile>
   <printMaterial>colorFabb_XT CLEAR</printMaterial>
   <printQuality>200 microns</printQuality>
@@ -24,7 +24,7 @@
   <layerHeight>0.2</layerHeight>
   <topSolidLayers>3</topSolidLayers>
   <bottomSolidLayers>3</bottomSolidLayers>
-  <perimeterOutlines>2</perimeterOutlines>
+  <perimeterOutlines>3</perimeterOutlines>
   <printPerimetersInsideOut>1</printPerimetersInsideOut>
   <startPointOption>2</startPointOption>
   <startPointOriginX>0</startPointOriginX>
