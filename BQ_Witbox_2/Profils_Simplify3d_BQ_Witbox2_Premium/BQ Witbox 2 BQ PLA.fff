@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="BQ Witbox 2 BQ PLA" version="2018-06-22 08:35:21" app="S3D-Software 4.0.1">
+<profile name="BQ Witbox 2 BQ PLA" version="2018-08-23 14:12:19" app="S3D-Software 4.0.1">
   <baseProfile>bq Witbox 2</baseProfile>
   <printMaterial>PLA BQ Premium BIO</printMaterial>
   <printQuality>200 microns</printQuality>
@@ -179,8 +179,8 @@
   <retractionMinTravel>3</retractionMinTravel>
   <retractWhileWiping>0</retractWhileWiping>
   <onlyWipeOutlines>1</onlyWipeOutlines>
-  <avoidCrossingOutline>0</avoidCrossingOutline>
-  <maxMovementDetourFactor>3</maxMovementDetourFactor>
+  <avoidCrossingOutline>1</avoidCrossingOutline>
+  <maxMovementDetourFactor>10</maxMovementDetourFactor>
   <toolChangeRetractionDistance>12</toolChangeRetractionDistance>
   <toolChangeExtraRestartDistance>-0.5</toolChangeExtraRestartDistance>
   <toolChangeRetractionSpeed>600</toolChangeRetractionSpeed>
