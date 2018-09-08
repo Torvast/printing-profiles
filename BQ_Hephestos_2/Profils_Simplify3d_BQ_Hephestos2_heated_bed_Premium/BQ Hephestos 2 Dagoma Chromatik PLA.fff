@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="BQ Hephestos 2 Dagoma Chromatik PLA" version="2018-07-21 09:37:55" app="S3D-Software 4.0.1">
+<profile name="BQ Hephestos 2 Dagoma Chromatik PLA" version="2018-09-08 11:26:35" app="S3D-Software 4.0.1">
   <baseProfile>bq Prusa i3 Hephestos 2</baseProfile>
   <printMaterial>PLA Chromatik</printMaterial>
   <printQuality>200 microns</printQuality>
@@ -63,7 +63,7 @@
   <internalInfillPattern>Grid</internalInfillPattern>
   <externalInfillPattern>Rectilinear</externalInfillPattern>
   <infillPercentage>20</infillPercentage>
-  <outlineOverlapPercentage>20</outlineOverlapPercentage>
+  <outlineOverlapPercentage>30</outlineOverlapPercentage>
   <infillExtrusionWidthPercentage>125</infillExtrusionWidthPercentage>
   <minInfillLength>5</minInfillLength>
   <infillLayerInterval>1</infillLayerInterval>
