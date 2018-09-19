@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<profile name="BQ Hephestos 2 Dagoma Chromatik PLA" version="2018-09-09 20:18:07" app="S3D-Software 4.0.1">
+<profile name="BQ Hephestos 2 AprintaPRO PETG" version="2018-09-19 02:18:33" app="S3D-Software 4.0.1">
   <baseProfile>bq Prusa i3 Hephestos 2</baseProfile>
-  <printMaterial>PLA Chromatik</printMaterial>
+  <printMaterial>PET-G PrintaMent</printMaterial>
   <printQuality>200 microns</printQuality>
   <printExtruders></printExtruders>
   <extruder name="Primary Extruder">
@@ -9,12 +9,12 @@
     <diameter>0.4</diameter>
     <autoWidth>0</autoWidth>
     <width>0.48</width>
-    <extrusionMultiplier>0.9</extrusionMultiplier>
+    <extrusionMultiplier>1</extrusionMultiplier>
     <useRetract>1</useRetract>
-    <retractionDistance>6.5</retractionDistance>
+    <retractionDistance>3</retractionDistance>
     <extraRestartDistance>0</extraRestartDistance>
     <retractionZLift>0</retractionZLift>
-    <retractionSpeed>1500</retractionSpeed>
+    <retractionSpeed>9600</retractionSpeed>
     <useCoasting>1</useCoasting>
     <coastingDistance>0.2</coastingDistance>
     <useWipe>0</useWipe>
@@ -92,7 +92,8 @@
     <relayBetweenLayers>0</relayBetweenLayers>
     <relayBetweenLoops>0</relayBetweenLoops>
     <stabilizeAtStartup>1</stabilizeAtStartup>
-    <setpoint layer="1" temperature="210"/>
+    <setpoint layer="1" temperature="225"/>
+    <setpoint layer="10" temperature="220"/>
   </temperatureController>
   <temperatureController name="Heated Bed">
     <temperatureNumber>0</temperatureNumber>
@@ -104,7 +105,7 @@
   </temperatureController>
   <fanSpeed>
     <setpoint layer="1" speed="0"/>
-    <setpoint layer="2" speed="100"/>
+    <setpoint layer="2" speed="50"/>
   </fanSpeed>
   <blipFanToFullPower>0</blipFanToFullPower>
   <adjustSpeedForCooling>1</adjustSpeedForCooling>
@@ -155,7 +156,7 @@
   <celebration>0</celebration>
   <celebrationSong>Random Song</celebrationSong>
   <postProcessing></postProcessing>
-  <defaultSpeed>2400</defaultSpeed>
+  <defaultSpeed>3000</defaultSpeed>
   <outlineUnderspeed>0.5</outlineUnderspeed>
   <solidInfillUnderspeed>0.8</solidInfillUnderspeed>
   <supportUnderspeed>0.8</supportUnderspeed>
@@ -168,8 +169,8 @@
   <useFixedBridgingAngle>0</useFixedBridgingAngle>
   <fixedBridgingAngle>0</fixedBridgingAngle>
   <applyBridgingToPerimeters>0</applyBridgingToPerimeters>
-  <filamentDiameters>1.74|1.75|1.75|1.75|1.75|1.75</filamentDiameters>
-  <filamentPricesPerKg>43.6|46|46|46|46|46</filamentPricesPerKg>
+  <filamentDiameters>1.75|1.75|1.75|1.75|1.75|1.75</filamentDiameters>
+  <filamentPricesPerKg>37.2|46|46|46|46|46</filamentPricesPerKg>
   <filamentDensities>1.24|1.25|1.25|1.25|1.25|1.25</filamentDensities>
   <useMinPrintHeight>0</useMinPrintHeight>
   <minPrintHeight>0</minPrintHeight>
@@ -185,8 +186,8 @@
   <retractionMinTravel>3</retractionMinTravel>
   <retractWhileWiping>0</retractWhileWiping>
   <onlyWipeOutlines>1</onlyWipeOutlines>
-  <avoidCrossingOutline>1</avoidCrossingOutline>
-  <maxMovementDetourFactor>10</maxMovementDetourFactor>
+  <avoidCrossingOutline>0</avoidCrossingOutline>
+  <maxMovementDetourFactor>3</maxMovementDetourFactor>
   <toolChangeRetractionDistance>12</toolChangeRetractionDistance>
   <toolChangeExtraRestartDistance>-0.5</toolChangeExtraRestartDistance>
   <toolChangeRetractionSpeed>600</toolChangeRetractionSpeed>
@@ -198,6 +199,14 @@
   <singleExtrusionMaxPrintingWidthPercentage>200</singleExtrusionMaxPrintingWidthPercentage>
   <singleExtrusionEndpointExtension>0.2</singleExtrusionEndpointExtension>
   <horizontalSizeCompensation>0</horizontalSizeCompensation>
+  <autoConfigureQuality name="100 microns">
+    <layerHeight>0.1</layerHeight>
+    <topSolidLayers>7</topSolidLayers>
+    <bottomSolidLayers>6</bottomSolidLayers>
+    <skirtLayers>2</skirtLayers>
+    <infillPercentage>30</infillPercentage>
+    <supportInfillPercentage>40</supportInfillPercentage>
+  </autoConfigureQuality>
   <autoConfigureQuality name="200 microns">
     <layerHeight>0.2</layerHeight>
     <topSolidLayers>7</topSolidLayers>
@@ -206,8 +215,8 @@
     <infillPercentage>20</infillPercentage>
     <supportInfillPercentage>30</supportInfillPercentage>
   </autoConfigureQuality>
-  <autoConfigureQuality name="100 microns">
-    <layerHeight>0.1</layerHeight>
+  <autoConfigureQuality name="25 microns">
+    <layerHeight>0.03</layerHeight>
     <topSolidLayers>7</topSolidLayers>
     <bottomSolidLayers>6</bottomSolidLayers>
     <skirtLayers>2</skirtLayers>
@@ -222,19 +231,20 @@
     <infillPercentage>30</infillPercentage>
     <supportInfillPercentage>40</supportInfillPercentage>
   </autoConfigureQuality>
-  <autoConfigureMaterial name="PLA Chromatik">
+  <autoConfigureMaterial name="PET-G PrintaMent">
     <temperatureController name="Primary Extruder">
       <temperatureNumber>0</temperatureNumber>
       <isHeatedBed>0</isHeatedBed>
       <relayBetweenLayers>0</relayBetweenLayers>
       <relayBetweenLoops>0</relayBetweenLoops>
       <stabilizeAtStartup>1</stabilizeAtStartup>
-      <setpoint layer="1" temperature="210"/>
+      <setpoint layer="1" temperature="225"/>
+      <setpoint layer="10" temperature="220"/>
     </temperatureController>
-    <globalExtrusionMultiplier>0.9</globalExtrusionMultiplier>
+    <globalExtrusionMultiplier>1</globalExtrusionMultiplier>
     <fanSpeed>
       <setpoint layer="1" speed="0"/>
-      <setpoint layer="2" speed="100"/>
+      <setpoint layer="2" speed="50"/>
     </fanSpeed>
   </autoConfigureMaterial>
 </profile>
