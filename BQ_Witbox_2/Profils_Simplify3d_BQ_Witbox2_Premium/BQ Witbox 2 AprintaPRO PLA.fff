@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="BQ Witbox 2 AprintaPRO PLA" version="2018-09-19 01:32:47" app="S3D-Software 4.0.1">
+<profile name="BQ Witbox 2 AprintaPRO PLA" version="2018-10-04 21:30:18" app="S3D-Software 4.0.1">
   <baseProfile>bq Witbox 2</baseProfile>
   <printMaterial>PLA PrintaMent</printMaterial>
   <printQuality>200 microns</printQuality>
@@ -92,8 +92,8 @@
     <relayBetweenLayers>0</relayBetweenLayers>
     <relayBetweenLoops>0</relayBetweenLoops>
     <stabilizeAtStartup>1</stabilizeAtStartup>
-    <setpoint layer="1" temperature="215"/>
-    <setpoint layer="10" temperature="210"/>
+    <setpoint layer="1" temperature="210"/>
+    <setpoint layer="10" temperature="200"/>
   </temperatureController>
   <fanSpeed>
     <setpoint layer="1" speed="0"/>
@@ -230,8 +230,8 @@
       <relayBetweenLayers>0</relayBetweenLayers>
       <relayBetweenLoops>0</relayBetweenLoops>
       <stabilizeAtStartup>1</stabilizeAtStartup>
-      <setpoint layer="1" temperature="215"/>
-      <setpoint layer="10" temperature="210"/>
+      <setpoint layer="1" temperature="210"/>
+      <setpoint layer="10" temperature="200"/>
     </temperatureController>
     <globalExtrusionMultiplier>1</globalExtrusionMultiplier>
     <fanSpeed>
