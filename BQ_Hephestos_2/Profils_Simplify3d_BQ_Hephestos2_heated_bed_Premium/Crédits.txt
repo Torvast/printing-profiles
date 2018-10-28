@@ -5,6 +5,9 @@ Sujet sur ces derniers : https://blog.t-core.fr/impressions-3d/ .
 
 
 Merci à :
+_ AprintaPro pour le code de réduction pour tester et réaliser les profils pour leurs bobines ainsi que le stick de colle et les petits sprays pour plateau.
+_ ColorFabb pour le code de réduction pour tester et réaliser les profils pour leurs bobines.
+_ Jacques & Alexandre, de Premium Computer Services, pour le don d'un Kit régulation pour Witbox 2 by Premium (https://boutique.premium-computer.fr/shop/imprimantes/kit-regulation-ventilateur/).
 _ ICE HQ Filament pour le retweet de mon travail via les profils pour leurs bobines.
 _ Alexandre, de Premium Computer Services (https://boutique.premium-computer.fr/), pour le don d’une de ses bobines perso d'Innofil3D PLA pour la création/réalisation des profils.
 _ Aux membres du forum http://premium-forum.fr .
