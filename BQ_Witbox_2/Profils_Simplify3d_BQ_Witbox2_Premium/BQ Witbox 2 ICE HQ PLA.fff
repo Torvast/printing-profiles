@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="BQ Witbox 2 ICE HQ PLA" version="2018-10-01 23:05:28" app="S3D-Software 4.0.1">
+<profile name="BQ Witbox 2 ICE HQ PLA" version="2018-10-25 22:29:53" app="S3D-Software 4.0.1">
   <baseProfile>bq Witbox 2</baseProfile>
   <printMaterial>PLA ICE HQ</printMaterial>
   <printQuality>200 microns</printQuality>
@@ -147,7 +147,7 @@
   <celebration>0</celebration>
   <celebrationSong>Random Song</celebrationSong>
   <postProcessing></postProcessing>
-  <defaultSpeed>2400</defaultSpeed>
+  <defaultSpeed>2200</defaultSpeed>
   <outlineUnderspeed>0.5</outlineUnderspeed>
   <solidInfillUnderspeed>0.8</solidInfillUnderspeed>
   <supportUnderspeed>0.8</supportUnderspeed>
