@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="BQ Hephestos 2 ICE HQ PLA" version="2018-10-26 12:34:23" app="S3D-Software 4.0.1">
+<profile name="BQ Hephestos 2 ICE HQ PLA" version="2018-11-01 15:05:29" app="S3D-Software 4.0.1">
   <baseProfile>bq Prusa i3 Hephestos 2</baseProfile>
   <printMaterial>PLA ICE HQ</printMaterial>
   <printQuality>200 microns</printQuality>
@@ -100,7 +100,7 @@
     <relayBetweenLayers>0</relayBetweenLayers>
     <relayBetweenLoops>0</relayBetweenLoops>
     <stabilizeAtStartup>1</stabilizeAtStartup>
-    <setpoint layer="1" temperature="50"/>
+    <setpoint layer="1" temperature="55"/>
   </temperatureController>
   <fanSpeed>
     <setpoint layer="1" speed="0"/>
