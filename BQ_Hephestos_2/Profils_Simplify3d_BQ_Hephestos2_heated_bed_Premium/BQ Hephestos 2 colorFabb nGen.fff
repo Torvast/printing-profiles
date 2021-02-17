@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="BQ Hephestos 2 colorFabb nGen" version="2019-02-26 19:30:50" app="S3D-Software 4.1.1">
+<profile name="BQ Hephestos 2 colorFabb nGen" version="2019-02-26 19:31:27" app="S3D-Software 4.1.1">
   <baseProfile>bq Prusa i3 Hephestos 2</baseProfile>
   <printMaterial>colorFabb nGen</printMaterial>
   <printQuality>200 microns</printQuality>

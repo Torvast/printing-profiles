@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="BQ Hephestos 2 AprintaPRO PLA" version="2018-10-16 08:19:26" app="S3D-Software 4.0.1">
+<profile name="BQ Hephestos 2 AprintaPRO PLA" version="2020-11-18 22:41:27" app="S3D-Software 4.1.2">
   <baseProfile>bq Prusa i3 Hephestos 2</baseProfile>
   <printMaterial>PLA PrintaMent</printMaterial>
   <printQuality>200 microns</printQuality>
@@ -24,7 +24,7 @@
   <layerHeight>0.2</layerHeight>
   <topSolidLayers>7</topSolidLayers>
   <bottomSolidLayers>6</bottomSolidLayers>
-  <perimeterOutlines>3</perimeterOutlines>
+  <perimeterOutlines>4</perimeterOutlines>
   <printPerimetersInsideOut>1</printPerimetersInsideOut>
   <startPointOption>2</startPointOption>
   <startPointOriginX>0</startPointOriginX>
@@ -89,8 +89,6 @@
   <temperatureController name="Primary Extruder">
     <temperatureNumber>0</temperatureNumber>
     <isHeatedBed>0</isHeatedBed>
-    <relayBetweenLayers>0</relayBetweenLayers>
-    <relayBetweenLoops>0</relayBetweenLoops>
     <stabilizeAtStartup>1</stabilizeAtStartup>
     <setpoint layer="1" temperature="210"/>
     <setpoint layer="10" temperature="200"/>
@@ -98,8 +96,6 @@
   <temperatureController name="Heated Bed">
     <temperatureNumber>0</temperatureNumber>
     <isHeatedBed>1</isHeatedBed>
-    <relayBetweenLayers>0</relayBetweenLayers>
-    <relayBetweenLoops>0</relayBetweenLoops>
     <stabilizeAtStartup>1</stabilizeAtStartup>
     <setpoint layer="1" temperature="60"/>
   </temperatureController>
@@ -161,7 +157,7 @@
   <solidInfillUnderspeed>0.8</solidInfillUnderspeed>
   <supportUnderspeed>0.8</supportUnderspeed>
   <rapidXYspeed>7200</rapidXYspeed>
-  <rapidZspeed>1000</rapidZspeed>
+  <rapidZspeed>1002</rapidZspeed>
   <minBridgingArea>50</minBridgingArea>
   <bridgingExtraInflation>0</bridgingExtraInflation>
   <bridgingExtrusionMultiplier>1</bridgingExtrusionMultiplier>
@@ -227,8 +223,6 @@
     <temperatureController name="Primary Extruder">
       <temperatureNumber>0</temperatureNumber>
       <isHeatedBed>0</isHeatedBed>
-      <relayBetweenLayers>0</relayBetweenLayers>
-      <relayBetweenLoops>0</relayBetweenLoops>
       <stabilizeAtStartup>1</stabilizeAtStartup>
       <setpoint layer="1" temperature="210"/>
       <setpoint layer="10" temperature="200"/>

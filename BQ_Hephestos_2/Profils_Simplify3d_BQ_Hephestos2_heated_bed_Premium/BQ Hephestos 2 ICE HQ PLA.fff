@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="BQ Hephestos 2 ICE HQ PLA" version="2019-03-07 19:14:11" app="S3D-Software 4.1.1">
+<profile name="BQ Hephestos 2 ICE HQ PLA" version="2019-03-07 21:23:51" app="S3D-Software 4.1.1">
   <baseProfile>bq Prusa i3 Hephestos 2</baseProfile>
   <printMaterial>PLA ICE HQ</printMaterial>
   <printQuality>200 microns</printQuality>
