@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="BQ Witbox 2 BQ PLA" version="2019-04-15 18:30:00" app="S3D-Software 4.1.2">
+<profile name="BQ Witbox 2 BQ PLA" version="2020-12-14 18:15:33" app="S3D-Software 4.1.2">
   <baseProfile>bq Witbox 2</baseProfile>
   <printMaterial>PLA BQ Premium BIO</printMaterial>
   <printQuality>200 microns</printQuality>
@@ -14,7 +14,7 @@
     <retractionDistance>3.5</retractionDistance>
     <extraRestartDistance>0</extraRestartDistance>
     <retractionZLift>0</retractionZLift>
-    <retractionSpeed>4002</retractionSpeed>
+    <retractionSpeed>3900</retractionSpeed>
     <useCoasting>1</useCoasting>
     <coastingDistance>0.2</coastingDistance>
     <useWipe>0</useWipe>
@@ -147,7 +147,7 @@
   <celebration>0</celebration>
   <celebrationSong>Random Song</celebrationSong>
   <postProcessing></postProcessing>
-  <defaultSpeed>2460</defaultSpeed>
+  <defaultSpeed>2160</defaultSpeed>
   <outlineUnderspeed>0.5</outlineUnderspeed>
   <solidInfillUnderspeed>0.8</solidInfillUnderspeed>
   <supportUnderspeed>0.8</supportUnderspeed>

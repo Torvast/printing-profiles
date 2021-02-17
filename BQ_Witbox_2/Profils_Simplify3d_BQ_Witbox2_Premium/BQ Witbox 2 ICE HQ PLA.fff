@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="BQ Witbox 2 ICE HQ PLA" version="2019-09-24 16:15:04" app="S3D-Software 4.1.2">
+<profile name="BQ Witbox 2 ICE HQ PLA" version="2020-12-13 19:37:11" app="S3D-Software 4.1.2">
   <baseProfile>bq Witbox 2</baseProfile>
   <printMaterial>PLA ICE HQ</printMaterial>
   <printQuality>200 microns</printQuality>

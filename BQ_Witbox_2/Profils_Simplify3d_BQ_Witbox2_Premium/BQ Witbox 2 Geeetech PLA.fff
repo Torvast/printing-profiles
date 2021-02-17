@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="BQ Witbox 2 Geeetech PLA" version="2018-12-30 00:46:28" app="S3D-Software 4.1.1">
+<profile name="BQ Witbox 2 Geeetech PLA" version="2019-01-08 23:49:43" app="S3D-Software 4.1.1">
   <baseProfile>bq Witbox 2</baseProfile>
   <printMaterial>PLA Geeetech BIO</printMaterial>
   <printQuality>200 microns</printQuality>
